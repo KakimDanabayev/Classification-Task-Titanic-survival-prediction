@@ -43,3 +43,14 @@ Communication and/or deployment: use the predictive model and its results
 
 ## Research process
 - Worked 21 hours for 2 weeks as a data scientist and developed classification models that could predict survival rate among Titanic passangers predicted by study factors. Data Analysis included using different analysing techniques, fact-checking, extracting new data, patterns & data visualisation,feature engineering, building pipelines, tunning hiperparameters and final evaluation & reporting.
+
+## Conclusion
+In this classification tesk I used XGBClassifier, RandomForestClassifier, Decision Tree Classifier, Gradient Boosting Classifier, SVC, LogisticRegression, AdaBoost Classifier and KNeighbors Classifier. XGBClassifier and RandomForestClassifier showed the better score in accuracy comparison with other algorithms. I also added a description about each hyperparameter that I tuned. In the pipeline, I added imputation methods, encoding methods, scaling methods (for some) and additionally added functions to drop constant, duplicated and correlated features (though, eventually I ended up keeping only a few factors, I decided not to delete and keep these functions). Working 21 hours for 2 weeks as a data scientist I have developed classification models that could predict survival rate among Titanic passengers predicted by the research factors.  
+
+- First, I used different analysing techniques to see the relationship between features to the target. Some of the outputs from the analysis needed fact-checking, so I compared my findings to the real facts from the external resources.
+- Second, I extracted new data to see some patterns in the feature engineering part through merging variables and creating new factors.
+- Third, in this work, I put my efforts to visualise all of my findings in the 'EDA' and 'Feature Engineering' parts.
+- Fourth, I used pipelines and grid search to tune models' hyperparameters and find the best estimators for them.
+- Fifth, I added five different types of classification metrics and also used a confusion matrix to visualise models predicting errors.
+- Six, I separately built a testing sample where you could type information about passengers and forecast whether he/she would survive or not. 
+
